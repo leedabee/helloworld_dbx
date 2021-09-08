@@ -1,2 +1,4 @@
 # Databricks notebook source
-print("Hello, world")
+import utils
+
+print(utils.get_message())
